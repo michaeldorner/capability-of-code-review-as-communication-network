@@ -2,8 +2,7 @@
 
 [![GitHub](https://img.shields.io/github/license/michaeldorner/capability-of-code-review-as-communication-network)](./LICENSE)
 [![GitHub Actions](https://github.com/michaeldorner/capability-of-code-review-as-communication-network/actions/workflows/test.yml/badge.svg)](https://img.shields.io/github/actions/workflow/status/michaeldorner/capability-of-code-review-as-communication-network/main.yml)
-[![Codacy Badge](https://img.shields.io/codacy/grade/ef43d5d9b7c74ec0b211c03d91c448d8)](https://app.codacy.com/gh/michaeldorner/capability-of-code-review-as-communication-network/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![Codacy Badge](https://img.shields.io/codacy/coverage/ef43d5d9b7c74ec0b211c03d91c448d8)](https://app.codacy.com/gh/michaeldorner/information-diffusion-boundaries-in-code-review/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_coverage)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/05c4efaf478d4d719a7b1f746f47a245)](https://app.codacy.com/gh/michaeldorner/capability-of-code-review-as-communication-network/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.8042256-blue)](https://doi.org/10.5281/zenodo.8042256)
 
 Simulation code for the study ["The Capability of of Code Review as Communication Network"](https://arxiv.com)
