@@ -5,7 +5,7 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/05c4efaf478d4d719a7b1f746f47a245)](https://app.codacy.com/gh/michaeldorner/capability-of-code-review-as-communication-network/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.15480495-blue)](https://doi.org/10.5281/zenodo.15480495)
 
-Simulation code for the study ["The Capability of of Code Review as a Communication Network"](https://arxiv.org/abs/2505.13985)
+Replication Package for the study ["The Capability of of Code Review as a Communication Network"](https://arxiv.org/abs/2505.13985)
 
 ## Introduction
 
