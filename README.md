@@ -72,12 +72,18 @@ The tests run also via [GitHub Actions](https://github.com/michaeldorner/capabil
 To verify the your results with our [results](https://doi.org/10.5281/zenodo.7898863), compare the MD5 hashes of your results (for example, via `md5 ./data/minimal_distances/.*bz2` on macOS or `md5sum ./data/minimal_distances/.*bz2` on Linux) with the following MD5 hashes.
 
 ```
+android.csv.bz2   001dd245e3e5b8fbbddca738e7a85fb9
+android.pickle.bz2   cc910a8d18377108820b96a6b08d3d7e
+vscode.csv.bz2   130b8eee766e611234dfca7f8195c5b7
+vscode.pickle.bz2   19cae774833746b96fc99c2ccb4f3ae8
+react.csv.bz2   ccabb03e4d82ae7ff0f0f59bb41bc865
+react.pickle.bz2   fd4bc63ba01195a5bedb508de4376b25
+microsoft.pickle.bz2   f5b0beb747705fe3fcf4a84191bba937
+microsoft.csv.bz2   08e93558473fb2b0a00de90e608901a3
+spotify.pickle.bz2   c434b887fcf449dc7195cc428260b35c
+spotify.csv.bz2   259532c46779df2702bcff0fa6c7932f
 trivago.pickle.bz2 	 64c97c8ddb1e67cb70bfe297ad81c4ed
 trivago.csv.bz2 	 a5e1a6d5230ac8c1888a711bd91f0420
-spotify.pickle.bz2 	 c434b887fcf449dc7195cc428260b35c
-spotify.csv.bz2 	 259532c46779df2702bcff0fa6c7932f
-microsoft.pickle.bz2 	 f5b0beb747705fe3fcf4a84191bba937
-microsoft.csv.bz2 	 08e93558473fb2b0a00de90e608901a3
 ```
 
 We also provide a minimal unittest that compares the hashes from Zenodo. It requires `requests` (install via `pip3 install requests`) and a [Zenodo access token](https://zenodo.org/account/settings/applications/tokens/new/). Run the unit test with the following command:
