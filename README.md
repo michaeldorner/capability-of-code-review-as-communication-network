@@ -3,7 +3,7 @@
 [![GitHub](https://img.shields.io/github/license/michaeldorner/capability-of-code-review-as-communication-network)](./LICENSE)
 [![GitHub Actions](https://github.com/michaeldorner/capability-of-code-review-as-communication-network/actions/workflows/test.yml/badge.svg)](https://img.shields.io/github/actions/workflow/status/michaeldorner/capability-of-code-review-as-communication-network/main.yml)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/05c4efaf478d4d719a7b1f746f47a245)](https://app.codacy.com/gh/michaeldorner/capability-of-code-review-as-communication-network/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.8042256-blue)](https://doi.org/10.5281/zenodo.8042256)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.15480495-blue)](https://doi.org/10.5281/zenodo.15480495)
 
 Simulation code for the study ["The Capability of of Code Review as a Communication Network"](https://arxiv.org/abs/2505.13985)
 
@@ -71,7 +71,7 @@ The tests run also via [GitHub Actions](https://github.com/michaeldorner/capabil
 
 ### Verification
 
-To verify the your results with our [results](https://doi.org/10.5281/zenodo.7898863), compare the MD5 hashes of your results (for example, via `md5 ./data/minimal_distances/.*bz2` on macOS or `md5sum ./data/minimal_distances/.*bz2` on Linux) with the following MD5 hashes.
+To verify the your results with our [results](https://doi.org/10.5281/zenodo.15480495), compare the MD5 hashes of your results (for example, via `md5 ./data/minimal_distances/.*bz2` on macOS or `md5sum ./data/minimal_distances/.*bz2` on Linux) with the following MD5 hashes.
 
 ```
 android.csv.bz2   001dd245e3e5b8fbbddca738e7a85fb9
