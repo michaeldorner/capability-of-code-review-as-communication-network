@@ -1,15 +1,15 @@
-# The Capability of Code Review as Communication Network: Replication Package
+# The Capability of Code Review as a Communication Network: Replication Package
 
 [![GitHub](https://img.shields.io/github/license/michaeldorner/capability-of-code-review-as-communication-network)](./LICENSE)
 [![GitHub Actions](https://github.com/michaeldorner/capability-of-code-review-as-communication-network/actions/workflows/test.yml/badge.svg)](https://img.shields.io/github/actions/workflow/status/michaeldorner/capability-of-code-review-as-communication-network/main.yml)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/05c4efaf478d4d719a7b1f746f47a245)](https://app.codacy.com/gh/michaeldorner/capability-of-code-review-as-communication-network/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.8042256-blue)](https://doi.org/10.5281/zenodo.8042256)
 
-Simulation code for the study ["The Capability of of Code Review as Communication Network"](https://arxiv.org/abs/2505.13985)
+Simulation code for the study ["The Capability of of Code Review as a Communication Network"](https://arxiv.org/abs/2505.13985)
 
 ## Introduction
 
-The underlying idea of our *in-silico* experiment is, in principle, simple: We model different code review systems as communication networks and compute all minimal distances between all code review participants. The cardinality of reachable participants indicates how widely (RQ 1) information can spread, and distances between participants indicate how quickly (RQ 2) information can spread in code review. Since we used minimal paths and created the communication networks under best-case assumptions, the results describe the upper bound of information diffusion in code review.
+The underlying idea of our *in-silico* experiment is, in principle, simple: We model different code review systems as a communication networks and compute all minimal distances between all code review participants. The cardinality of reachable participants indicates how widely (RQ 1) information can spread, and distances between participants indicate how quickly (RQ 2) information can spread in code review. Since we used minimal paths and created the communication networks under best-case assumptions, the results describe the upper bound of information diffusion in code review.
 
 Yet communication—and, by extension, information diffusion—is (1) inherently time-dependent and (2) not strictly bilateral, as code reviews often involve exchanges among more than two participants. As a result, traditional graphs are not well suited for modeling such interactions and tend to dramatically overestimate information diffusion [(Dorner et al. 2022)](https://dl.acm.org/doi/abs/10.1145/3544902.3546254). To address this, we use time-varying hypergraphs to model the communication network and to compute the shortest paths between all vertices. Hypergraphs generalize traditional graphs, allowing the use of standard algorithms such as Dijkstra’s for computing minimal-path distances. However, in time-varying hypergraphs, the distance between two vertices can be both topological (i.e., the fewest hops) and temporal (i.e., the shortest duration). This dual characterization enables us to answer RQ 2 by measuring both types of distance. Importantly, both topological and temporal distances yield the same set of reachable participants, which serves as the basis for answering RQ 1.
 
