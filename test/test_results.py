@@ -24,7 +24,7 @@ class ResultsTest(unittest.TestCase):
     @unittest.skipIf(not ZENODO_ACCESS_TOKEN or not REQUESTS_INSTALLED, 'Skipped because no Zenodo access token was provided.')
     def test_results(self):
         zenodo_access_token = os.environ.get('ZENODO_ACCESS_TOKEN')
-        response = requests.get('https://zenodo.org/api/records/8042256',
+        response = requests.get('https://zenodo.org/api/records/15480496',
                                 params={'access_token': zenodo_access_token}, timeout=10)
         response.raise_for_status()
         zenodo_reference = {record['key']: record['checksum'][len(
